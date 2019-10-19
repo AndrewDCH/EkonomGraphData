@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excel= Microsoft.Office.Interop.Excel;
 
 namespace Ekonom
 {
@@ -10,6 +11,13 @@ namespace Ekonom
     {
         static void Main(string[] args)
         {
+            EkonomExcel excel = new EkonomExcel();
+            Console.ReadKey();
         }
+       
+
+        
+
+
     }
 }
